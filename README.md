@@ -2,19 +2,29 @@
 
 A modern, responsive signup experience designed for **Extrovert**, an offline-first social platform focused on helping people discover real-world plans, people, and experiences around them.
 
-The project replicates a polished multi-step onboarding journey with a strong focus on **visual fidelity, usability, validation, and smooth user flow**.
+The project implements a polished multi-step onboarding journey with a strong focus on **visual fidelity, usability, validation, responsiveness, and smooth user flow**.
 
 ---
 
 ## ✨ Overview
 
-**Extrovert** is designed around the idea:
+**Extrovert** is built around the idea:
 
 > **More stories. Less scrolling.**
 
 Instead of endless social-media scrolling, the experience encourages users to connect with people and discover plans and activities happening around them.
 
-The signup wizard guides a new user through a structured onboarding flow before creating their profile.
+The signup wizard guides new users through a structured onboarding experience before completing their profile.
+
+---
+
+## 🌐 Live Demo
+
+🚀 **Live Application:**
+https://extrovert-sepia.vercel.app/
+
+💻 **GitHub Repository:**
+https://github.com/Aman25427/Extrovert
 
 ---
 
@@ -88,7 +98,7 @@ The interface follows a distinctive visual system built around:
 * Step-progress indicators
 * Responsive layout
 
-The left side of the experience uses the **"Life happens outside."** visual message, while the right side contains the interactive signup workflow. The provided reference screens show this layout consistently across the onboarding stages.
+The left side of the experience uses the **"Life happens outside."** visual message, while the right side contains the interactive signup workflow.
 
 ---
 
@@ -111,16 +121,18 @@ The left side of the experience uses the **"Life happens outside."** visual mess
 * ✅ Responsive UI
 * ✅ Modern dark-themed design
 * ✅ User-friendly onboarding experience
+* ✅ Vercel deployment
 
 ---
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** React / JavaScript
-* **Styling:** CSS
+* **Frontend:** HTML, CSS, JavaScript
 * **Runtime:** Node.js
 * **Development Environment:** VS Code
+* **Server:** Node.js HTTP Server
 * **Version Control:** Git & GitHub
+* **Deployment:** Vercel
 
 ---
 
@@ -131,14 +143,11 @@ Extroverts/
 │
 ├── public/
 │
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   └── ...
-│
-├── package.json
+├── app.js
+├── index.html
+├── styles.css
 ├── server.mjs
+├── package.json
 ├── README.md
 ├── .gitignore
 └── ...
@@ -190,7 +199,7 @@ npm install
 
 ---
 
-## ▶️ Run the Project
+## ▶️ Run Locally
 
 Start the development server:
 
@@ -266,14 +275,13 @@ Examples include:
 * Controlled selection of pronouns
 * Location selection
 * Interest selection
+* Step-based navigation
 
-The reference flow also communicates OTP expiration and provides a **resend-code** action to improve recovery from verification failures.
+The OTP screen also provides a **resend-code** interaction and verification feedback.
 
 ---
 
 ## 📸 UI Flow
-
-The reference design demonstrates the following screens:
 
 | Step | Screen                   |
 | ---- | ------------------------ |
@@ -284,13 +292,6 @@ The reference design demonstrates the following screens:
 | ✓    | You're on the list       |
 
 The final screen confirms successful onboarding and presents the newly created profile before allowing the user to continue into the experience.
-
----
-
-## 🌐 Repository
-
-**GitHub:**
-https://github.com/Aman25427/Extrovert
 
 ---
 
@@ -307,8 +308,8 @@ Potential improvements include:
 * Event discovery
 * User matching
 * Profile editing
-* Production deployment
 * Automated testing
+* CI/CD integration
 
 ---
 
@@ -317,6 +318,7 @@ Potential improvements include:
 **Aman Singhania**
 
 Computer Science Engineering Student
+
 Interested in Software Development, Web Development, QA, and Application Engineering.
 
 ---
@@ -331,4 +333,4 @@ This project was developed for educational, portfolio, and assessment purposes.
 
 Inspired by the provided Extrovert signup experience and its visual onboarding flow.
 
-**Life happens outside.**
+> **Life happens outside.**
