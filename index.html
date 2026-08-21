@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#120617" />
+    <meta name="description" content="Extroverts signup experience" />
+    <title>Extroverts — Get outside</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="showcase" aria-label="Extroverts introduction">
+        <a class="brand" href="#home" data-route="landing" aria-label="Extroverts home">
+          <span class="brand-mark"><i></i><i></i><i></i></span>
+          <span>extroverts</span>
+        </a>
+
+        <div class="showcase-copy">
+          <p class="eyebrow">MAKE PLANS. MEET PEOPLE.</p>
+          <h1>Life happens<br />outside.</h1>
+          <p class="lede">Find the people, the plans, and the places that make a regular night worth remembering.</p>
+        </div>
+
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <div class="ticket ticket-top" aria-hidden="true">
+          <span class="ticket-label">TONIGHT</span>
+          <strong>OPEN<br />INVITE</strong>
+          <span class="ticket-stub">• • • • • •</span>
+        </div>
+        <div class="ticket ticket-bottom" aria-hidden="true">
+          <span>YOU'RE ON<br />THE LIST</span>
+          <b>01</b>
+        </div>
+
+        <p class="showcase-foot">random people. real parties.</p>
+      </aside>
+
+      <main id="app" class="app-panel" tabindex="-1"></main>
+    </div>
+
+    <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
